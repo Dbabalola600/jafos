@@ -2,17 +2,21 @@ import React from "react";
 import Form from "../components/pages/login/Form";
 import Header from "../components/pages/login/Header";
 
+
 // layout
+import DefaultLayout from "../components/layout/DefaultLayout";
 
 
-
-function Login (){
+function Login() {
     return (
         // add layout here
-        <div>
-        <Header/>
-        <Form/>
-        </div>
+        <DefaultLayout>
+            <div className="md:px-20">
+                <Header />
+                <Form />
+            </div>
+        </DefaultLayout>
+
     );
 }
 
