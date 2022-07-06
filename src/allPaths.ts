@@ -1,3 +1,5 @@
 export const paths ={
-    LOGIN: "/login"
+    LOGIN: "/login",
+    CREATE_ACCOUNT :"/create-account",
+    CHECKOUT: "/checkout"
 }

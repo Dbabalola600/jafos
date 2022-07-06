@@ -14,3 +14,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@layer components{
+  .btn1{
+    @apply bg-red-900 px-7 py-4 text-black rounded-lg font-semibold cursor-pointer hover:shadow duration-100 ease-in-out disabled:opacity-60 md:text-xl md:py-6;
+  }
+}
